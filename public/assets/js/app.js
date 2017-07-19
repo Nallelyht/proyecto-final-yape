@@ -1,0 +1,1 @@
+var cargarPagina=function(){$(".carousel.carousel-slider").carousel({fullWidth:!0}),validarNumero()},validarNumero=function(){$("#btn-continuar"),$("#terminos"),$("#numero-registro")};$(document).ready(cargarPagina);

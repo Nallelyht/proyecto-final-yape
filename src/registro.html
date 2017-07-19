@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Document</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+		<link rel="stylesheet" href="assets/css/style.css">
+	</head>
+	<body>
+		<section class="container aligner">
+			<div class="row">
+				<div class="col s6 offset-s3">
+					<img src="assets/img/icons/phone.png" alt="phone" class="responsive-img">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col s12">
+					<h5 class="center-align bold">Para comenzar validaremos tu número</h5>
+					<p class="center-align">Recibiras un SMS con un código de validación</p>
+				</div>
+			</div>
+			<form class="row">
+				<div class="input-field col s12">
+					<input id="numero-registro" type="tel" name="numero-registro" pattern="[0-9]{10}" required>
+					<label for="numero-registro"><img src="assets/img/icons/phoneandnumber.png" alt="number" class="responsive-img"></label>
+					<p>
+						<input type="checkbox" class="filled-in" id="terminos"/>
+						<label for="terminos">Acepto los <a href="#">Términos y condiciones</a></label>
+					</p>
+					<div class="center">
+						<button type="submit" class="btn waves-effect white-text" id="btn-continuar" href="registro.html">
+							<a>CONTINUAR
+							</a> </button>
+					</div>
+				</div>
+			</form>
+		</section>
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+		<script src="assets/js/app.js"></script>
+	</body>
+</html>
